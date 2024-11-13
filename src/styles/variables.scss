@@ -1,0 +1,101 @@
+@import "~@radix-ui/colors/mint-dark.css";
+
+// Fonts
+
+
+// Color
+$color-base: --mint-1;
+$color-bg-subtle: --mint-2;
+$color-bg: --mint-3;
+$color-bg-hover: --mint-4;
+$color-bg-active: --mint-5;
+$color-line: --mint-6;
+$color-border: --mint-7;
+$color-border-hover: --mint-8;
+$color-solid: --mint-9;
+$color-solid-hover: --mint-10;
+$color-text: --mint-11;
+$color-text-contrast: --mint-12;
+
+// Space
+$space-1: 4px;
+$space-2: 6px;
+$space-3: 8px;
+$space-4: 10px;
+$space-5: 12px;
+$space-6: 16px;
+
+// Length
+$length-0: 0px;
+$length-1: 4px;
+$length-2: 8px;
+$length-3: 12px;
+$length-4: 16px;
+$length-5: 20px;
+$length-6: 24px;
+$length-7: 28px;
+$length-8: 32px;
+$length-9: 36px;
+$length-10: 40px;
+$length-11: 44px;
+$length-12: 48px;
+$length-14: 56px;
+$length-16: 64px;
+$length-20: 80px;
+$length-24: 96px;
+$length-28:	112px;
+$length-32:	128px;
+$length-36: 144px;
+$length-40:	160px;
+$length-44:	176px;
+$length-48:	192px;
+$length-52:	208px;
+$length-56:	224px;
+$length-60: 240px;
+$length-64:	256px;
+$length-72:	288px;
+$length-80:	320px;
+$length-96:	384px;
+
+// Max Length
+$max-length-1: 400px;
+$max-length-2: 640px;
+$max-length-3: 768px;
+$max-length-4: 1024px;
+$max-length-5: 1280px;
+$max-length-6: 1536px;
+
+// Margin/Padding
+$margin-1: 1px;
+$margin-2: 2px;
+$margin-3: 4px;
+$margin-4: 8px;
+$margin-5: 16px;
+$margin-6: 32px;
+
+// Border
+$border-radius-1: 1px;
+$border-radius-2: 2px;
+$border-radius-3: 4px;
+$border-radius-4: 8px;
+$border-radius-5: 16px;
+$border-radius-6: 32px;
+
+$border-weight-1: 1px;
+$border-weight-2: 2px;
+$border-weight-3: 3px;
+$border-weight-4: 4px;
+$border-weight-5: 5px;
+$border-weight-6: 6px;
+
+// Box Shadow
+$shadow-sm:	0 1px 2px 0 rgb(0 0 0 / 0.05);
+$shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+$shadow-md:	0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+$shadow-lg:	0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+$shadow-xl:	0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+$shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+$shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+$shadow-none: 0 0 #0000;
+
+// Animations

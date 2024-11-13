@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 ### Biome
 
-Uses Biome as the configued linter and formatter. It is faster than pretties and has better hints for linting than ESLint.
+Uses Biome as the configued linter and formatter. It is faster than prettier and has better hints for linting than ESLint. [Biome](https://biomejs.dev/)
 
 The configuration file is Biome.json
 
@@ -35,3 +35,7 @@ This file must be added to the [ViteConfig](./vite.config.ts) like this:
     }
     });
 ```
+
+### Radix Colors
+
+Uses Radix color themes to make it easier and simpler to reuse good color throughout the project
