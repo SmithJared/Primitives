@@ -38,4 +38,5 @@ This file must be added to the [ViteConfig](./vite.config.ts) like this:
 
 ### Radix Colors
 
-Uses Radix color themes to make it easier and simpler to reuse good color throughout the project
+Uses Radix color themes to make it easier and simpler to reuse good color throughout the project.
+The Radix color are imported into the index.css for global use

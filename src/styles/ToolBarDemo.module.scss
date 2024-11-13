@@ -1,0 +1,118 @@
+.Toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Root {
+	display: flex;
+	padding: 10px;
+    margin: 8px;
+	min-width: max-content;
+	border-radius: $border-radius-4;
+	background-color: var(--color-base);
+	box-shadow: $shadow-md;
+    animation-timing-function: ease;
+    &[data-visible="true"] {
+        opacity: 1;
+        animation-duration: 500ms;
+        animation-name: enterFromTop;
+    }
+    &[data-visible="false"] {
+        opacity: 0;
+        animation-duration: 1000ms;
+        animation-name: returnToTop;
+    }
+}
+
+.ToggleItem,
+.Link,
+.Button {
+	all: unset;
+	flex: 0 0 auto;
+	color: var(--color-text);
+	height: 25px;
+	padding: 0 5px;
+	border-radius: $border-radius-2;
+	display: inline-flex;
+	font-size: 13px;
+	line-height: 1;
+	align-items: center;
+	justify-content: center;
+	&:hover {
+		background-color: var(--color-bg-hover);
+	}
+	&:focus {
+		position: relative;
+		box-shadow: $shadow-inner;
+	}
+}
+
+.ToggleItem {
+	background-color: --color-bg;
+	margin-left: 2px;
+	&:first-child {
+		margin-left: 0;
+	}
+	&[data-state="on"] {
+		background-color: --color-bg-active;
+	}
+}
+
+.Separator {
+	width: 1px;
+	background-color: --color-border;
+	margin: 0 10px;
+}
+
+.Link {
+	background-color: transparent;
+	color: --color-text-contrast;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	&:hover {
+		background-color: transparent;
+		cursor: pointer;
+	}
+	@media (min-width: 520px) {
+		display: inline-flex;
+	}
+}
+
+.Button {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: --color-text;
+	background-color: --color-bg;
+	&:hover {
+		background-color: --color-bg-hover;
+	}
+}
+
+@keyframes enterFromTop {
+	from {
+        opacity: 0;
+		transform: translateY(-200px);
+	}
+	to {
+        opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes returnToTop {
+	from {
+        opacity: 1;
+		transform: translateY(0px);
+	}
+	to {
+        opacity: 0;
+		transform: translateY(-200px);
+	}
+}
+

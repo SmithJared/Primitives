@@ -1,21 +1,20 @@
-@import "~@radix-ui/colors/mint-dark.css";
 
 // Fonts
 
 
 // Color
-$color-base: --mint-1;
-$color-bg-subtle: --mint-2;
-$color-bg: --mint-3;
-$color-bg-hover: --mint-4;
-$color-bg-active: --mint-5;
-$color-line: --mint-6;
-$color-border: --mint-7;
-$color-border-hover: --mint-8;
-$color-solid: --mint-9;
-$color-solid-hover: --mint-10;
-$color-text: --mint-11;
-$color-text-contrast: --mint-12;
+// $color-base: var(--mint-1);
+// $color-bg-subtle: var(--mint-2);
+// $color-bg: var(--mint-3);
+// $color-bg-hover: var(--mint-4);
+// $color-bg-active: var(--mint-5);
+// $color-line: var(--mint-6);
+// $color-border: var(--mint-7);
+// $color-border-hover: var(--mint-8);
+// $color-solid: var(--mint-9);
+// $color-solid-hover: var(--mint-10);
+// $color-text: var(--mint-11);
+// $color-text-contrast: var(--mint-12);
 
 // Space
 $space-1: 4px;
@@ -98,4 +97,134 @@ $shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 $shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
 $shadow-none: 0 0 #0000;
 
+// box-shadow: 0 2px 10px var(--black-a7)
+
 // Animations
+
+@keyframes enterFromRight {
+	from {
+		opacity: 0;
+		transform: translateX(200px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes enterFromLeft {
+	from {
+		opacity: 0;
+		transform: translateX(-200px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes exitToRight {
+	from {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateX(200px);
+	}
+}
+
+@keyframes exitToLeft {
+	from {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateX(-200px);
+	}
+}
+
+@keyframes enterFromTop {
+	from {
+		opacity: 0;
+		transform: translateY(200px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes enterFromBottom {
+	from {
+		opacity: 0;
+		transform: translateY(-200px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes exitToTop {
+	from {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateY(200px);
+	}
+}
+
+@keyframes exitToLeft {
+	from {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateY(-200px);
+	}
+}
+
+@keyframes scaleIn {
+	from {
+		opacity: 0;
+		transform: rotateX(-30deg) scale(0.9);
+	}
+	to {
+		opacity: 1;
+		transform: rotateX(0deg) scale(1);
+	}
+}
+
+@keyframes scaleOut {
+	from {
+		opacity: 1;
+		transform: rotateX(0deg) scale(1);
+	}
+	to {
+		opacity: 0;
+		transform: rotateX(-10deg) scale(0.95);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
