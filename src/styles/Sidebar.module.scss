@@ -53,7 +53,7 @@
 	align-items: center;
 	justify-content: center;
 	&:hover {
-		background-color: --color-bg-hover;
+		background-color: $color-bg-hover;
 	}
 	&:focus {
 		position: relative;
@@ -62,20 +62,20 @@
 }
 
 .ToggleItem {
-	background-color: --color-bg;
+	background-color: $color-bg;
 	margin-top: 2px;
 	&:first-child {
 		margin-top: 0;
 	}
 	&[data-state="on"] {
-		background-color: --color-bg-active;
+		background-color: $color-bg-active;
 	}
 }
 
 .Separator {
 	height: 1px;
 	width: 100%;
-	background-color: --color-border;
+	background-color: $color-border;
 	margin: 10px 0;
 }
 
@@ -83,9 +83,9 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: --color-text;
-	background-color: --color-bg;
+	background-color: $color-bg;
 	&:hover {
-		background-color: --color-bg-hover;
+		background-color: $color-bg-hover;
 	}
 }
 

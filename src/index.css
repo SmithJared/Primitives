@@ -1,5 +1,5 @@
 @import "@radix-ui/colors/mint-dark.css";
-@import "@radix-ui/colors/mint.css";
+/* @import "@radix-ui/colors/mint.css"; */
 
 :root {
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -11,7 +11,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
-	--color-base: var(--mint-1);
+	/* --color-base: var(--mint-1);
 	--color-bg-subtle: var(--mint-2);
 	--color-bg: var(--mint-3);
 	--color-bg-hover: var(--mint-4);
@@ -22,7 +22,7 @@
 	--color-solid: var(--mint-9);
 	--color-solid-hover: var(--mint-10);
 	--color-text: var(--mint-11);
-	--color-text-contrast: var(--mint-12);
+	--color-text-contrast: var(--mint-12); */
 }
 
 body{

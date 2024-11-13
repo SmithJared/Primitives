@@ -14,7 +14,7 @@
     margin: 8px;
 	min-width: max-content;
 	border-radius: $border-radius-4;
-	background-color: var(--color-base);
+	background-color: $color-base;
 	box-shadow: $shadow-md;
     animation-timing-function: ease;
     &[data-visible="true"] {
@@ -34,7 +34,7 @@
 .Button {
 	all: unset;
 	flex: 0 0 auto;
-	color: var(--color-text);
+	color: $color-text;
 	height: 25px;
 	padding: 0 5px;
 	border-radius: $border-radius-2;
@@ -44,7 +44,7 @@
 	align-items: center;
 	justify-content: center;
 	&:hover {
-		background-color: var(--color-bg-hover);
+		background-color: $color-bg-hover;
 	}
 	&:focus {
 		position: relative;
@@ -53,25 +53,25 @@
 }
 
 .ToggleItem {
-	background-color: --color-bg;
+	background-color:$color-bg;
 	margin-left: 2px;
 	&:first-child {
 		margin-left: 0;
 	}
 	&[data-state="on"] {
-		background-color: --color-bg-active;
+		background-color: $color-bg-active;
 	}
 }
 
 .Separator {
 	width: 1px;
-	background-color: --color-border;
+	background-color: $color-border;
 	margin: 0 10px;
 }
 
 .Link {
 	background-color: transparent;
-	color: --color-text-contrast;
+	color: $color-text-contrast;
 	display: none;
 	justify-content: center;
 	align-items: center;
@@ -87,10 +87,10 @@
 .Button {
 	padding-left: 10px;
 	padding-right: 10px;
-	color: --color-text;
-	background-color: --color-bg;
+	color: $color-text;
+	background-color: $color-bg;
 	&:hover {
-		background-color: --color-bg-hover;
+		background-color: $color-bg-hover;
 	}
 }
 

@@ -11,7 +11,7 @@
     // background-color: $color-base;
     background: linear-gradient(
         0deg,
-        var(--color-base) 85%,
-        var(--color-bg) 100%
+        $color-base 85%,
+        $color-bg 100%
     );
 }
